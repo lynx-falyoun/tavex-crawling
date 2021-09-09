@@ -1,0 +1,18 @@
+{
+  "name": "crawling-tavex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "currency-table-handlers/puppeteer-currency-handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "puppeteer-core": "^10.2.0"
+  }
+}
