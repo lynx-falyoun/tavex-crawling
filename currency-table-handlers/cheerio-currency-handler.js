@@ -14,7 +14,7 @@ module.exports = {
         return data;
       })
       .then(elements => {
-        const table = elements.map(ele => {
+        return elements.map(ele => {
           const strArr = ele.split(' ')
           const code = strArr[0];
           strArr.splice(0, 1);
@@ -28,8 +28,7 @@ module.exports = {
             buy: weBuy,
             sell: weSell
           }
-        })
-        return table;
+        });
         // fs.writeFileSync('table2.json', JSON.stringify(table, null, 2))
       });
   }
